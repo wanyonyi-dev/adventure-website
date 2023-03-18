@@ -8,7 +8,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(newyork.img.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url();
     background-size: cover;
     background-position:center ;
 }
@@ -363,5 +363,39 @@ active::after{
 
 
 }
+/* ---------Listing page----------*/
+.navbar-white{
+    background: white;
+    box-shadow: 0 5px 10px red;
+}
+navbar-white .nav-links li a{
+    color: #000;
+}
+.navbar-white.register-btn{
+    background: red;
+}
     
+.nav.navbar-white .far-bars{
+    color: #000;
+}
+.navbar-white .active::after{
+    background: #ff5361;
+}
+.list.container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.left-col{
+    flex-basis: 70%;
+}
+.right-col{
+flex-basis: 25%;
+}
+.left-col h1{
+    color: #333;
+    font-weight: 600;
+}
 
