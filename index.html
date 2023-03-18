@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="header">
-            <nav>
+            <nav id="navBar">
                 <img src="logo 2.img.jpg"class="logo">
                 <ul class="nav-links">
                    
@@ -18,7 +18,7 @@
 
                 </ul>
                 <a href="#" class="register-btn">Register Now</a>
-                <i class=""></i>
+                <i class="" onclick="togglebtn()"></i>
             </nav>
             <div class="container">
                 <h1>Find Your Next Stay</h1>
@@ -192,7 +192,12 @@
 
 
         </div>
-
+<script>
+    var navBar=document.getElementById("navBar")
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu");
+    }
+</script>
 
 
 
