@@ -8,7 +8,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url();
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(dubai2.img.jpg);
     background-size: cover;
     background-position:center ;
 }
@@ -258,144 +258,106 @@ nav{
     nav .far-bars{
         display: none;
     }
-
 /*--------------------for small screen devices---------*/
-@media  only screen and(max-width:700px{
+@media  only screen and(max-width:700px) {
 
-.logo{
-    position: fixed;
-    top: 4%;
-    left: 7%;
-}
-nav{
-    position: fixed;
-    top: 0;
-    z-index: 100;
+    .logo{
+        position: fixed;
+        top: 4%;
+        left: 7%;
+    }
+    
+    .nav{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: inline-block;
+        width: 100%;
+        padding: 100px 7% 0;
+        background: #000;
+        text-align: right;
+        max-height: 100px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        
+    }
+    .nav .nav-links li{
+        margin: 10px 0;
+        display:block;
+    }
+    .register-btn{
+        margin: 15px 0 30px;
     display: inline-block;
-    width: 100%;
-    padding: 100px 7% 0;
-    background: #000;
-    text-align: right;
-    max-height: 100px;
-    overflow: hidden;
-    transition: max-height 0.5s;
-}
-nav .nav-links li{
-    margin: 10px 0;
-    display:block;
-}
-.register-btn{
-    margin: 15px 0 30px;
-display: inline-block;
-
-}
-nav .far-bars{
-    display: block;
-    position: fixed;
-    top: 4%;
-    right: 7%;
-    color: white;
-    font-size: 28px;
-}
-
-active::after{
     
-    left: -40%;
-    transform: translateX(0,50%);
-    bottom: 50px;
-}
-.hidemenu{
-    max-height: 300px;
-
-}
-.header h1{
-    padding-top: 200px;
-    font-size: 7vw;
-}
-.search-bar{
-    width: 90%;
-    margin: 30px auto;
-    padding: 20px 10px 30px;
-    border-radius: 5px;
-    position: relative;
-}
-.search-bar form{
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-
-}
-.search-bar form button{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%,50%);
-}
-   .sub-title{
-    font-size: 6vw;
-   } 
-   .cta{
-    padding: 15% 5%;
-   }
-   .cta h3{
-    font-size: 7vw;
-    line-height: 8vw;
-   }
-.cta p{
-    font-size: 14px;
-}
-.cta-btn{
-    padding: 6px 15px;
-    border-radius: 4px;
-    margin-top: 10px;
-    font-size: 14px;
-}
-.stories p{
-    font-size: 22px;
-}
-.about-msg{
-    font-size: 15px;
-}
-
-
-
-
-}
-/* ---------Listing page----------*/
-.navbar-white{
-    background: white;
-    box-shadow: 0 5px 10px red;
-}
-navbar-white .nav-links li a{
-    color: #000;
-}
-.navbar-white.register-btn{
-    background: red;
-}
+    }
+    .nav .far-bars{
+        display: block;
+        position: fixed;
+        top: 4%;
+        right: 7%;
+        color: white;
+        font-size: 28px;
+    }
     
-.nav.navbar-white .far-bars{
-    color: #000;
-}
-.navbar-white .active::after{
-    background: #ff5361;
-}
-.list.container{
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-}
-.left-col{
-    flex-basis: 70%;
-}
-.right-col{
-flex-basis: 25%;
-}
-.left-col h1{
-    color: #333;
-    font-weight: 600;
-}
-
+    .active::after{
+        
+        left: -40%;
+        transform: translateX(0,50%);
+        bottom: 50px;
+    }
+    .hidemenu{
+        max-height: 300px;
+    
+    }
+    .header h1{
+        padding-top: 200px;
+        font-size: 7vw;
+    }
+    .search-bar{
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px 10px 30px;
+        border-radius: 5px;
+        position: relative;
+    }
+    .search-bar form{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    
+    }
+    .search-bar form button{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,50%);
+    }
+       .sub-title{
+        font-size: 6vw;
+       } 
+       .cta{
+        padding: 15% 5%;
+       }
+       .cta h3{
+        font-size: 7vw;
+        line-height: 8vw;
+       }
+    .cta p{
+        font-size: 14px;
+    }
+    .cta-btn{
+        padding: 6px 15px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .stories p{
+        font-size: 22px;
+    }
+    .about-msg{
+        font-size: 15px;
+    }
+    }
+    
