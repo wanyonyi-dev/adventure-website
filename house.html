@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> House details page</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="https://kit.fontawesome.com/f688b5c8ea.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+
+        <nav id="navBar" class="navbar-white">
+            
+            <img src="logo 3.img.png"class="logo">
+            
+            <ul class="nav-links">
+               
+                <li><a href="index.html" class="active">Popular places</a></li>
+                <li><a href="listings.html">Travel Outside</a></li>
+                 <li><a href="house.html">Online Packages</a></li>
+                 <li><a href="#">Contacts</a></li>
+
+            </ul>
+            <a href="#" class="register-btn">Register Now</a>
+            <i class="fa-sharp fa-solid fa-bars"><onclick="togglebtn()"></i>
+        </nav>
+        <div class="house-details">
+            <div class="house-title">
+                <h1>Wenge House</h1>
+                <div class="row">
+                    <div>
+                 <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star-half-stroke"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <span>300 Reviews</span>
+
+
+                    </div>
+                    <div>
+                        <p>Location :Dubai ,San francisco,New York</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                
+                 
+                <div class="gallery-img-1"><img src="img 50.jpg"></div>
+                <div><img src="img 51.jpg"></div>
+                <div><img src="img 53.jpg"></div>
+                <div><img src="img 54.jpg"></div>
+                <div><img src="img 37.jpg"></div>
+         </div>
+        
+            <div class="small-details">
+                <h2>Entire rental unit hosted by sifuma</h2>
+                <p> 2 bedrooms &nbsp; &nbsp; 2beds &nbsp; &nbsp; 1bathroom</p>
+                <h4>$700 / day</h4>
+            </div>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label>check-in</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div>
+                <label>check-out</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div class="guest-field">
+                <label>Guest</label>
+                <input type="text" placeholder="2 Guest">
+            </div>
+            <button type="submit">Check Availability</button>
+        </form>
+
+        <ul class="details-list">
+            <li><i class="fa-solid fa-house"></i>Entire Home 
+                <span>You will have the entire flat for you</span>
+            </li>
+            <li><i class="fa-sharp fa-solid fa-paintbrush"></i>Enhanced Clean
+                <span>This host committed to our cleaning process</span>
+            </li>
+            <li><i class="fa-sharp fa-solid fa-location-dot"></i>Great location 
+                <span>80% of recent guest have the location a 5 star rating</span>
+            </li>
+            <li><i class="fa-solid fa-heart"></i>Great check-in Experience
+                <span>100% of recent guest gave the check-in process a 5 star rating</span>
+            </li>
+
+        </ul>
+        <hr class="line">
+        <p class="home-desc">Guest will be allocated on the ground floor according to the availability .You get comfotable 
+             two bedroom apartment has a true feeling of the city .The price quoted is for two guest,at the 
+             guest slot please mark the number of guest to get the exact pricce for groups
+             </p>
+             <hr class="line">
+             <div class="map">
+                <h3>Location on map</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.3011806427!2d54.947284948608434!3d25.076381472700543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6a576414cf2d%3A0xb3da71b879f0e038!2sBurj%20Al%20Arab!5e0!3m2!1sen!2ske!4v1679297628737!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <b>San francisco,united states,california</b>
+                <p>Its like a home away from home</p>
+             </div>
+             <hr class="line">
+             <div class="host">
+                <img src="person1.jpg">
+                <h2>Hosted by Peter Wanyonyi</h2>
+                <p><span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                     <i class="fa-solid fa-star-half-stroke"></i>
+
+                </span> &nbsp; &nbsp;245 reviews &nbsp; &nbsp;Response rate 100%
+            &nbsp; &nbsp;Response time:60 mins </p>
+             </div>
+             <a href="#" class="contact-host">Contact Host</a>
+        </div>
+        <div class="container">
+            <div class="footer">
+                <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                <hr>
+                <p>copyright@peterwanyonyi</p>
+            </div>
+           </div>
+           <script>
+    var navBar=document.getElementById("navBar")
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu");
+    }
+</script>
+    </body>
+</html>
