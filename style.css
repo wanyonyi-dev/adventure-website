@@ -16,7 +16,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 7%;
+    padding: 20px 8%;
 }
 
 active ,nav ul li :hover
