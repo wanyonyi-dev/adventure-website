@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="style.css">
         
         <script src="https://kit.fontawesome.com/f688b5c8ea.js" crossorigin="anonymous"></script>
+        <script refer src="script.js"></script>
 
     </head>
     <body>
@@ -61,17 +62,21 @@
         </div>
         <hr class="line">
         <form class="check-form">
+            <div id="error"></div>
             <div>
-                <label>check-in</label>
-                <input type="text" placeholder="Add Date">
+                <label id="checkin">check-in</label>
+                <input type="text" placeholder="Add Date" required>
+                <p></p>
             </div>
             <div>
-                <label>check-out</label>
-                <input type="text" placeholder="Add Date">
+                <label id="checkout">check-out</label>
+                <input type="text" placeholder="Add Date" required>
+                <p></p>
             </div>
             <div class="guest-field">
-                <label>Guest</label>
-                <input type="text" placeholder="2 Guest">
+                <label id="guest">Guest</label>
+                <input type="text" placeholder="2 Guest" required>
+                <p></p>
             </div>
             <button type="submit">Check Availability</button>
         </form>

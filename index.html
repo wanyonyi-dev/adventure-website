@@ -1,10 +1,11 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title> simple  website</title>
+        <title> INTE/MG/2720/09/21</title>
         <link rel="stylesheet" href="style.css">
         
         <script src="https://kit.fontawesome.com/f688b5c8ea.js" crossorigin="anonymous"></script>
+        <script  defer src="script.js"></script>
 
     </head>
     <body>
@@ -15,7 +16,7 @@
                 <img src="logo 3.img.png"class="logo">
                 <ul class="nav-links">
                    
-                    <li><a href="index.html" class="active">Popular places</a></li>
+                    <li><a href="#" class="active">Popular places</a></li>
                     <li><a href="house.html">Travel Outside</a></li>
                      <li><a href="listings.html">Online packages</a></li>
                      <li><a href="contact.html">Contacts</a></li>
@@ -28,23 +29,23 @@
                 <h1>Find Your Next Stay</h1>
                 <div class="search-bar">
                     <form>
-                        <div class="location-input">
+                        <div class="location-input" >
                             <label>Loacation</label>
-                            <input type="text" placeholder="Where are you going?">
+                            <input type="text" placeholder="Where are you going?" required>
                         </div>
                         <div>
-                            <label>Check In</label>
-                            <input type="text" placeholder="Add Date">
+                            <label >Check In</label>
+                            <input type="text" placeholder="Add Date" required>
                         </div>
                         <div>
-                            <label>Check Out</label>
-                            <input type="text" placeholder="Add Date">
+                            <label   >Check Out</label>
+                            <input type="text" placeholder="Add Date" required>
                         </div>
                         <div>
-                            <label>Guest</label>
-                            <input type="text" placeholder="Add Guest">
+                            <label >Guest</label>
+                            <input type="text" placeholder="Add Guest" required>
                         </div>
-                        <button type="submit"></button>
+                        <button type="submit" id="submit"></button>
                     </form>
                 </div>
             </div>
